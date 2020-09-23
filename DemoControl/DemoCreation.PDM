@@ -1,0 +1,73 @@
+[Root]
+Most Recent Package=Internet Package 1
+
+
+[Package|Internet Package 1|Root]
+SubWizProgID=PDWizard.InetCABPkgSubWiz
+BuildFolder=\\nitins\c$\Nitin\DemoControl\Package
+Controls Design-Time Support=Yes
+
+[Package|Internet Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Internet Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Internet Package 1|Files Found]
+
+[Package|Internet Package 1|Files Released]
+User.DLL=
+
+[Package|Internet Package 1|Missing Dependency Information]
+
+[Package|Internet Package 1|Out-of-Date Dependency Information]
+
+[Package|Internet Package 1|Files Added]
+C:\WINNT\System32\MsStkPrp.dll=This file is needed for usercontrol design-time support.
+
+[Package|Internet Package 1|Files Removed]
+
+[Package|Internet Package 1|Files In Project]
+\\nitins\c$\WINDOWS\SYSTEM\DemoCreation.ocx=Yes
+C:\WINNT\system32\MSVBVM60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\msstkprp.dll=Yes
+
+[Package|Internet Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Internet Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Internet Package 1|Install Locations]
+
+[Package|Internet Package 1|Configure Shared Files]
+Applicable=
+
+[Package|Internet Package 1|ComponentInfo]
+DemoCreation.ocx=thiscab
+MSVBVM60.dll=thiscab
+OLEAUT32.DLL=thiscab
+OLEPRO32.DLL=thiscab
+ASYCFILT.DLL=thiscab
+STDOLE2.TLB=thiscab
+COMCAT.DLL=thiscab
+msstkprp.dll=thiscab
+
+[Package|Internet Package 1|ObjectInfo]
+DemoCreator=true;true
+ClsINI=true;true
+
+[Package|Internet Package 1|Package]
+PackageFolder=\\nitins\c$\Nitin\DemoControl\Package
+ProjectFolder=\\nitins\c$\Nitin\DemoControl
+ServerSideCab=\\nitins\c$\Nitin\DemoControl\Package\DemoCreation.CAB
+File1=\\nitins\c$\Nitin\DemoControl\Package\DemoCreation.CAB
+File2=\\nitins\c$\Nitin\DemoControl\Package\DemoCreation.HTM
+Handler1=PDWizard.WebPostDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
